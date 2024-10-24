@@ -7,8 +7,16 @@ public class TestTop {
         /**
          * 输出
          */
-        topPerson.java1();
-        topPerson.java2();
-        topPerson.java3();
+        topPerson.name();
+        topPerson.age();
+        topPerson.ranking();
+
+        Top topPer = new Top("cc","21","1");
+        /**
+         * 输出
+         */
+        topPer.name();
+        topPer.age();
+        topPer.ranking();
     }
 }
