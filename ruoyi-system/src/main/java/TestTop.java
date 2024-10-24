@@ -1,28 +1,13 @@
 public class TestTop {
     public static void main(String[] args){
-
-        /**
-         * 创建top对象
-         */
-
-        Top topPerson = new Top("xx","20","2");
-
-        /**
-         * 输出
-         */
-
+        Top topPerson = new Top("xx","20","2");//创建top对象
         topPerson.name();
         topPerson.age();
-        topPerson.ranking();
+        topPerson.ranking();//输出
 
-        Top topPer = new Top("cc","21","1");
-
-        /**
-         * 输出
-         */
-
+        Top topPer = new Top("cc","21","1");//创建top对象
         topPer.name();
         topPer.age();
-        topPer.ranking();
+        topPer.ranking();//输出
     }
 }
